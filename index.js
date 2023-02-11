@@ -41,7 +41,7 @@ cube = new THREE.Mesh(geometry, materials) // 建立網格物件
 function init() {
   scene = new THREE.Scene()
 
-  scene.add(cube)
+  // scene.add(cube)
   
   scene.background = new THREE.Color(0xAAAAAA);
 
